@@ -1,3 +1,12 @@
 server.port=2121
 
 management.endpoints.web.exposure.include=*
+
+server.port=7979
+
+# allow for RefreshScope
+management.endpoints.web.exposure.include=*
+
+vinLookUp=vin-lookup
+serviceProtocol=http://
+servicePath=/vehicle
